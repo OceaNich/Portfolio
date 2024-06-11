@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+ 	background-image: url(../img/image502.jpg);
+    background-size: 120%;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+	margin: 0 auto;
+	border: solid black 1px;
+	width: 55%;
+	background-image: url(../img/image501.jpg);
+     background-size: 160%;  
+	height: 3150px;
+}
+header{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	color:DimGrey;
+	font-size: 350%;
+	display: flex;
+	justify-content: center;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_item{
+    height: 60px;
+    width: 19%;
+    background: grey;
+    border-radius: 60px;
+    color: white;
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+  width: 100%;
+  height: 100%;
+}
+.section_pict{
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.section_image_soonflowers{
+    width: 95%;
+    height: 400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/image777.png);
+    text-align: center;
+    color: white;
+    border: solid grey 15px;
+    font-size: 180%;
+    background-position: center;
+}
+ .section_image_dogandgirl{
+    width: 28%;
+    height: 250px;
+    background-image: url(../img/image778.png);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: white;
+     border: solid grey 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 180%;
+    background-size: cover;
+    background-position: center;
+}
+ .section_image_fotographer{
+    width: 28%;
+    height: 250px;
+    background-image: url(../img/image202.jpg);
+    text-align: center;
+    color: white;
+     border: solid grey 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 180%;
+    background-size: cover;
+    background-position: center;
+}
+ .section_image_paris{
+    width: 28%;
+    height: 250px;
+    background-image: url(../img/image303.jpg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    border: solid grey 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 180%;
+    background-size: cover;
+    background-position: center;
+}
+.section_image_maldives{
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../img/image607.jpg);
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    text-align: center;
+    color: white;
+    border: solid grey 15px;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.section_text_photo{
+	transform: rotate(-180deg);
+}
+.section_box{
+    width: 92%;
+    height: 300px;
+    margin: 0 auto;
+    text-indent: 30px;
+    color:DimGrey;
+    font-size: 140%;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    height: 800px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.section_image:nth-child(1){
+	width: 28%;
+    height: 54%;
+	background-image: url(../img/image138.jpg);
+	border: solid grey 15px;
+    background-size: cover;
+    background-position: center;
+}
+.section_text{
+	width: 31%;
+	height: 33%;
+	background:grey;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 150%;
+	margin: 0 auto;
+}
+.section_image:nth-child(4){
+	width: 28%;
+    height: 54%;
+	background-image: url(../img/image137.png);
+	border: solid grey 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+}
+.section_image:nth-child(5){
+	width: 28%;
+	height: 54%;
+	background-image: url(../img/image139.jpg);
+	border: solid grey 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+}
+.section_box4{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 145%;
+}
+.footer_item{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background: grey ;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border: solid black 1px;
+    height:380px;
+}
+.footer_text{
+    color: white;
+    font-size: 220%;
+}
+.footer_pict{
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+p{
+   background: dimgray;  
+}
